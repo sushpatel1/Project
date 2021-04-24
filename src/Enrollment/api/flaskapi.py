@@ -16,7 +16,6 @@ def index(self):
   
 @app.route('/add_member', methods=['POST'])
 def add_member():
-    # title, url, notes, date_added, date_edited
     first_name = request.json["first_name"]
     last_name = request.json["last_name"]
     age = request.json["age"]

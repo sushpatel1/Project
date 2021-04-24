@@ -97,7 +97,7 @@ EVENT_HANDLERS = {
 }  # type: Dict[Type[events.Event], List[Callable]]
 
 COMMAND_HANDLERS = {
-    commands.AddMemberPolicyCommand: add_member,
+    commands.AddMemberCommand: add_member,
     commands.UpdateMemberCommand: update_member,
     commands.DeleteMemberCommand: delete_member,
     commands.AddPolicyCommand: add_policy,
