@@ -39,20 +39,7 @@ class TestEnrollment:
     def test_add_member(self):
         bus = boostrap_test_app()
 
-        nu: datetime = datetime(2021, 3, 31, 0, 0, 0, 0, tzinfo=timezone.utc)
-        
-          # add one
-        bus.handle(
-            commands.AddPolicyCommand(
-                1,
-                f"Test Policy",
-                f"01-01-2021"
-                f"",
-                nu.isoformat(),  # date added
-                nu.isoformat(),  # date edited
-            )
-        )
-        # add one
+        nu: datetime = datetime(2021, 3, 31, 0, 0, 0, 0, tzinfo=timezone.utc)       
         bus.handle(
             commands.AddMemberCommand(
                 1,

@@ -19,7 +19,7 @@ from sqlalchemy.orm import  registry, mapper, relationship
 from sqlalchemy.sql.schema import ForeignKey
 from sqlalchemy.sql.sqltypes import Boolean
 
-from Enrollment.domain.models import Member, Policy
+from Enrollment.domain.models import Member, Member_Policy, Policy
 
 mapper_registry = registry()
 Base = mapper_registry.generate_base()
@@ -68,4 +68,5 @@ def start_mappers():
     logger.info("starting mappers")
     mapper(Member, members)
     mapper(Policy, policies)
+    mapper(Member_Policy, member_pilicy)
 
