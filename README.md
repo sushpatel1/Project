@@ -6,25 +6,24 @@ I have identified problem i am looking in and tried to solve it by APP's Archite
 
 # Layered Architecture
  The layered architecture design includes below elemetns:
-**Presentation Layer** 
+- **Presentation Layer** 
  It has flaskapi.py file under api folder where it has API for external inputs
- **Service layer** 
+-  **Service layer** 
  It has handlers.py, messagebus.py and unit_of_work.py files under services folder
- **Adapters** 
+-  **Adapters** 
  It has repository.py, orm.py and redis_eventpublisher.py files.
- **Domain** 
+-  **Domain** 
  It has commands.py, events.py and models.py
 
 # Domain tests
- **Unit tests**
+-  **Unit tests**
  It has unit tests for handlers and models.
-  **Integration**
+-  **Integration**
   It has test cases to test unit of work class.
 
- I have used below libraries 
-  ORM - SQLAlchemy 1.4.11 
-  Python 3.8.5
-  Virtual Env: Final_Proj
-  miniconda3
-  pytest
-  
+# I have used below libraries for this project
+- **ORM - SQLAlchemy 1.4.11**
+- **Python 3.8.5**
+- **Virtual Env: Final_Proj**
+- **miniconda3**
+- **pytest**
