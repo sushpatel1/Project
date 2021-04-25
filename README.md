@@ -15,14 +15,14 @@ I have identified problem i am looking in and tried to solve it by APP's Archite
 -  **Domain** 
  It has commands.py, events.py and models.py
 
-# Domain tests
--  **Unit tests**
+## Domain tests
+-  ### Unit tests ###
+   It has unit tests for handlers and models.
 
- It has unit tests for handlers and models.
 -  **Integration**
   It has test cases to test unit of work class.
 
-# I have used below libraries for this project
+## I have used below libraries for this project
 - **ORM - SQLAlchemy 1.4.11**
 - **Python 3.8.5**
 - **Virtual Env: Final_Proj**
