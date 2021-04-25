@@ -17,6 +17,7 @@ I have identified problem i am looking in and tried to solve it by APP's Archite
 
 # Domain tests
 -  **Unit tests**
+
  It has unit tests for handlers and models.
 -  **Integration**
   It has test cases to test unit of work class.
